@@ -4,7 +4,7 @@ class Pet:
     def __init__(self, name, age):
         self.name = name
         self.age = age
-        self.health = 100
+        self.health = 88
         Pet.totalPets = Pet.totalPets + 1
 
     def speak(self):
